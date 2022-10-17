@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Programa de Ordenação de Número',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
-        primaryColor: const Color(0xFF2196f3),
+        primaryColor: const Color(0x196f3),
         accentColor: const Color(0xFF2196f3),
         canvasColor: const Color(0xFFfafafa),
       ),
