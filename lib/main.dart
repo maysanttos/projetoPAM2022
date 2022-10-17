@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Generated App',
+      title: 'Programa de Ordenação de Número',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
         primaryColor: const Color(0xFF2196f3),
@@ -172,6 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void limpar() {
     pNota.text = "";
     sNota.text = "";
+    sNota.text = "Digite a Segunda";
     setState(() {
       media = "";
       status = "";
